@@ -19,6 +19,8 @@ public class StudentTest {
 
     public static void show(Student student) {
 
-        System.out.println("省份证：" + student.getCardId());
+        System.out.println("省份证：" + student.getCardId() + "名称：" + student.getName() + "年龄：" + student.getAge() +
+                "联系方式：" + student.getPhone());
+
     }
 }
